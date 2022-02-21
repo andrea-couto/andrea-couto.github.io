@@ -12,25 +12,27 @@ const Intro = () => {
             <div className='i-right-wrapper'>
                 <h2 className='i-intro'>Hi, I'm</h2>
                 <h1 className='i-name'>Andy Couto</h1>
-                <div className='i-title'>
-                    <div className="i-title-wrapper">
-                        <div className="i-title-item">iOS Developer</div>
-                        <div className="i-title-item">Animal Lover</div>
-                        <div className="i-title-item">Hiker</div>
-                        <div className="i-title-item">Innovator</div>
-                    </div>                    
+                <div className="i-title">
+                    <div className="i-title-wrapper">                    
+                        <ul className="i-title-wrapper-list">
+                        <li className="i-title-wrapper-list-item">iOS Developer</li>
+                        <li className="i-title-wrapper-list-item">Animal Lover</li>
+                        <li className="i-title-wrapper-list-item">Hiker</li>
+                        <li className="i-title-wrapper-list-item">Innovator</li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
+                <p>
                     Ever since I decided to make the switch from Psychology to Computer Science I have been in love with programming. 
                     I spend most of my day developing Panera's mobile iOS application, but love to learn new technology during my off-hours. 
                     I am grateful to love what I do.
-                </div>
-                <div>
+                </p>
+                <p>
                     Skills: iOS Development (mobile & kiosk), Swift, Obj-C, App Clips, Siri, Widgets, UIKit, MapKit, Networking, Analytics, Firebase, Integration Testing
-                </div>
-                <div>
+                </p>
+                <p>
                     Interests: ARKit, SwiftUI, new & exciting tech
-                </div>
+                </p>
             </div>
         </div>
     </div>

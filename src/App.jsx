@@ -1,7 +1,11 @@
-import Intro from "./components/intro/intro";
+import Intro from "./components/Intro/intro";
+// import Resources from "./components/Resources/resources";
 
 const App = () => {
-  return <div><Intro/></div>;
+  return <div>
+    <Intro/>
+    {/* <Resources/> */}
+    </div>;
 };
 
 export default App;
