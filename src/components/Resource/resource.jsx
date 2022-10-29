@@ -1,9 +1,13 @@
 import React from 'react'
-import './resource.css'
+import './Resource.css'
 
 const Resource = () => {
   return (
-    <div>resource</div>
+    <div className='r'>
+      <a href="">
+        <img src="" alt="" />
+      </a>
+    </div>
   )
 }
 

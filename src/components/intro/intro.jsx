@@ -1,12 +1,13 @@
 import React from 'react'
-import "./intro.css"
-import PhotoOfAndy from "../../img/andy-t.png"
+import "./Intro.css"
+import PhotoOfAndy from "../../img/andy.png"
+import SocialFollow from '../SocialFollow/SocialFollow'
 
 const Intro = () => {
   return (
     <div className='i'>
         <div className='i-left'>
-            <img src={PhotoOfAndy} alt="Photo of Andy smiling" className='i-img'/>
+            <img src={PhotoOfAndy} alt="Andy smiling" className='i-img'/>
         </div>
         <div className='i-right'>
             <div className='i-right-wrapper'>
@@ -31,8 +32,9 @@ const Intro = () => {
                     Skills: iOS Development (mobile & kiosk), Swift, Obj-C, App Clips, Siri, Widgets, UIKit, MapKit, Networking, Analytics, Firebase, Integration Testing
                 </p>
                 <p>
-                    Interests: ARKit, SwiftUI, new & exciting tech
+                    Interests: ARKit, Photogrammetry / 3D modeling, SwiftUI, new & exciting tech
                 </p>
+                <SocialFollow />
             </div>
         </div>
     </div>
