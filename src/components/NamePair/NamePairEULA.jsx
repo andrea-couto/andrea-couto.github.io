@@ -1,11 +1,10 @@
 import React from 'react'
-import "./Intro.css"
 
-const NamePairTerms = () => {
+const NamePairEULA = () => {
   return (
-    <div className='r'>
-                <h2 className='i-intro'>Name Pair</h2>
-                <h1 className='i-name'>END USER LICENSE AGREEMENT</h1>
+    <div style={{ margin: 50 }}>
+                <h2>Name Pair</h2>
+                <h1>END USER LICENSE AGREEMENT</h1>
                 <p>
                 Last updated October 11, 2022
                 </p>
@@ -98,20 +97,47 @@ const NamePairTerms = () => {
                 </h2>
                 <p>
                 The Licensed Application does not offer users to submit or post content. We may provide you with the opportunity to create, submit, post, display, transmit, perform, publish, distribute, or broadcast content and materials to us or in the Licensed Application, including but not limited to text, writings, video, audio, photographs, graphics, comments, suggestions, or personal information or other material (collectively, "Contributions"). Contributions may be viewable by other users of the Licensed Application and through third-party websites or applications. As such, any Contributions you transmit may be treated in accordance with the Licensed Application Privacy Policy. When you create or make available any Contributions, you thereby represent and warrant that:
+                </p>
+                <p>
                 1. The creation, distribution, transmission, public display, or performance, and the accessing, downloading, or copying of your Contributions do not and will not infringe the proprietary rights, including but not limited to the copyright, patent, trademark, trade secret, or moral rights of any third party.
+                </p>
+                <p>
                 2. You are the creator and owner of or have the necessary licenses, rights, consents, releases, and permissions to use and to authorize us, the Licensed Application, and other users of the Licensed Application to use your Contributions in any manner contemplated by the Licensed Application and this License Agreement.
+                </p>
+                <p>
                 3. You have the written consent, release, and/or permission of each and every identifiable individual person in your Contributions to use the name or likeness or each and every such identifiable individual person to enable inclusion and use of your Contributions in any manner contemplated by the Licensed Application and this License Agreement.
+                </p>
+                <p>
                 4. Your Contributions are not false, inaccurate, or misleading.
+                </p>
+                <p>
                 5. Your Contributions are not unsolicited or unauthorized advertising, promotional materials, pyramid schemes, chain letters, spam, mass mailings, or other forms of solicitation.
+                </p>
+                <p>
                 6. Your Contributions are not obscene, lewd, lascivious, filthy, violent, harassing, libelous, slanderous, or otherwise objectionable (as determined by us).
+                </p>
+                <p>
                 7. Your Contributions do not ridicule, mock, disparage, intimidate, or abuse anyone.
+                </p>
+                <p>
                 8. Your Contributions are not used to harass or threaten (in the legal sense of those terms) any other person and to promote violence against a specific person or class of people.
+                </p>
+                <p>
                 9. Your Contributions do not violate any applicable law, regulation, or rule
+                </p>
+                <p>
                 10. Your Contributions do not violate the privacy or publicity rights of any third party.
+                </p>
+                <p>
                 11. Your Contributions do not violate any applicable law concerning child pornography, or otherwise intended to protect the health or well-being of minors.
+                </p>
+                <p>
                 12. Your Contributions do not include any offensive comments that are connected to race, national origin, gender, sexual preference, or physical handicap.
+                </p>
+                <p>
                 13. Your Contributions do not otherwise violate, or link to material that violates, any provision of this License Agreement, or any applicable law or regulation.
                 </p>
+
                 <p>
                 Any use of the Licensed Application in violation of the foregoing violates this License Agreement and may result in, among other things, termination or suspension of your rights to use the Licensed Application.
                 </p>
@@ -141,13 +167,21 @@ To avoid data loss, You are required to make use of backup functions of the Lice
 </h2>
 <p>
 8.1 Licensor warrants that the Licensed Application is free of spyware, trojan horses, viruses, or any other malware at the time of Your download. Licensor warrants that the Licensed Application works as described in the user documentation.
+</p>
+<p>
 8.2 No warranty is provided for the Licensed Application that is not executable on the device, that has been unauthorizedly modified, handled inappropriately or culpably, combined or installed with inappropriate hardware or software, used with inappropriate accessories, regardless if by Yourself or by third parties, or if there are any other reasons outside of Name Pair's sphere of influence that affect the executability of the Licensed Application.
+</p>
+<p>
 8.3 You are required to inspect the Licensed Application immediately after installing it and notify Name Pair about issues discovered without delay by email provided in Product Claims. The defect report will be taken into consideration and further investigated if it has been emailed within a period of ninety
 (90) days after discovery.
 </p>
 <p>
 8.4 If we confirm that the Licensed Application is defective, Name Pair reserves a choice to remedy the situation either by means of solving the defect or substitute delivery.
+</p>
+<p>
 8.5 In the event of any failure of the Licensed Application to conform to any applicable warranty, You may notify the Services Store Operator, and Your Licensed Application purchase price will be refunded to You. To the maximum extent permitted by applicable law, the Services Store Operator will have no other warranty obligation whatsoever with respect to the Licensed Application, and any other losses, claims, damages, liabilities, expenses, and costs attributable to any negligence to adhere to any warranty.
+</p>
+<p>
 8.6 If the user is an entrepreneur, any claim based on faults expires after a statutory period of limitation amounting to twelve (12) months after the Licensed Application was made available to the user. The statutory periods of limitation given by law apply for users who are consumers.
 </p>
 
@@ -156,8 +190,14 @@ To avoid data loss, You are required to make use of backup functions of the Lice
 </h2>
 <p>
 Name Pair and the End-User acknowledge that Name Pair, and not the Services, is responsible for addressing any claims of the End-User or any third party relating to the Licensed Application or the End-User's possession and/or use of that Licensed Application, including, but not limited to:
+</p>
+<p>
 (i) product liability claims;
+</p>
+<p>
 (ii) any claim that the Licensed Application fails to conform to any applicable legal or regulatory requirement; and
+</p>
+<p>
 (iii) claims arising under consumer protection, privacy, or similar legislation, including in connection with Your Licensed Application's use of the HealthKit and HomeKit.
 </p>
 
@@ -212,4 +252,4 @@ This License Agreement is governed by the laws of the Commonwealth of Massachuse
   )
 }
 
-export default NamePairTerms
+export default NamePairEULA

@@ -1,5 +1,5 @@
 import Intro from "./components/Intro/Intro";
-import NamePairTerms from "./components/Intro/NamePairTerms";
+import NamePairEULA from "./components/NamePair/NamePairEULA";
 import {
   BrowserRouter as Router,
   Routes,
@@ -11,7 +11,7 @@ const App = () => {
   <div>
     <Routes>
       <Route exact path='/' element={<Intro/>} />
-      <Route exact path='/NamePairTerms' element={<NamePairTerms/>} />
+      <Route exact path='/NamePairEULA' element={<NamePairEULA/>} />
     </Routes>
   </div>
 </Router>;
