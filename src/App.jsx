@@ -1,11 +1,20 @@
-import Intro from "./components/Intro/intro";
-// import Resources from "./components/Resources/resources";
+import Intro from "./components/Intro/Intro";
+import NamePairEULA from "./components/NamePair/NamePairEULA";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 const App = () => {
-  return <div>
-    <Intro/>
-    {/* <Resources/> */}
-    </div>;
+  return <Router>
+  <div>
+    <Routes>
+      <Route exact path='/' element={<Intro/>} />
+      <Route exact path='/NamePairEULA' element={<NamePairEULA/>} />
+    </Routes>
+  </div>
+</Router>;
 };
 
 export default App;
