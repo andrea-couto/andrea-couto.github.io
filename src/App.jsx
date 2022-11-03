@@ -12,9 +12,6 @@ const App = () => {
     <Routes>
       <Route path='/' element={<Intro/>} />
       <Route path='/NamePairEULA' element={<NamePairEULA/>} />
-      {/* <Route path="/NamePairPrivacy.html" element={<NamePairEULA/>} /> */}
-      <Route exact path="/NamePairPrivacy" element={window.location.href="NamePairPrivacy.html"} />
-
     </Routes>
   </div>
 </Router>;
